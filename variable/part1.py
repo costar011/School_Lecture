@@ -13,14 +13,45 @@
 # 4byte : float, int, boolean
 # 8byte : long, double
 
-# 변수 데이터를 쓰려면, 쓰기 전에 어딘가에 저장해된다.
+# 프로그래밍은 기본적으로 어떤 데이터를 저장하고, 이를 자유롭게 처리하는 것이다.
+# 데이터를 쓰려면, 쓰기 전에 어딘가에 저장해된다.
+# 어떤 데이터가 들어간 공간을 변수라고한다.
 
-# 변수의 선언 방법
+# 코드에 #이 붙어있으면 주석처리를 해두는 것인데, 주석처리를 하지않은 코드만 실행된다.
+
+# 예를 들면
 a = 10
-print(type(a))
+print(a)
+# 이런식으로 a라는 변수에 10을 넣고 출력 한다는 의미이다.
 
-b = "Hello World"
-print(type(b))
-# String -> 기본적으로 char의 배열
 
-print(b[3])
+# 다른 예시
+a = 20
+print(a)
+
+b = 30
+print(b)
+
+sum = a + b
+print(sum)
+
+c = 50
+d = 40
+result = 50 - 40
+
+print(result)
+# 변수는 여러개를 만들 수 있고 더하고 뺄 수도 있다.
+
+
+# 곱하거나 나누기 예시
+a = 50
+b = 40
+
+result = a / b
+print(result)
+
+result = a // b  # 나눴을 때 몫입니다.
+print(result)
+
+result = a % b  # 나누었을 때 나머지
+print(result)
