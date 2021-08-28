@@ -13,6 +13,8 @@
 # 4byte : float, int, boolean
 # 8byte : long, double
 
+# 변수 데이터를 쓰려면, 쓰기 전에 어딘가에 저장해된다.
+
 # 변수의 선언 방법
 a = 10
 print(type(a))
