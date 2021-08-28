@@ -55,3 +55,13 @@ print(result)
 
 result = a % b  # 나누었을 때 나머지
 print(result)
+
+# 변수에는 정수뿐만 아니라 실수나 문자도 넣을 수 있다.
+name = 'mac'
+print(name)
+
+city = 'seoul'
+print(city)
+
+a = 10.5
+print(a)
